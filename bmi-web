@@ -1,0 +1,8 @@
+bmi-web/
+├─ index.html
+├─ css/
+│   └─ style.css
+├─ js/
+│   └─ bmi.js
+├─ README.md
+└─ .gitignore
