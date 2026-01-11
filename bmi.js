@@ -1,1 +1,20 @@
-console.log("BMI Web Loaded");
+function calculateBMI() {
+  const height = document.getElementById("height").value;
+  const weight = document.getElementById("weight").value;
+
+  if (height === "" || weight === "") {
+    document.getElementById("result").innerText = "กรุณากรอกข้อมูลให้ครบ";
+    return;
+  }
+
+  const heightM = height / 100;
+  const bmi = weight / (heightM * heightM);
+
+  let status = "";
+  if (bmi < 18.5) status = "ผอม";
+  else if (bmi < 25) status = "ปกติ";
+  else status = "อ้วน";
+
+  document.getElementById("result").innerText =
+    `BMI = ${bmi.toFixed(2)} (${status})`;
+}
