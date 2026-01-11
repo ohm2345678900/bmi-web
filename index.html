@@ -6,7 +6,28 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <h1>BMI Calculator</h1>
+  <p>HTML by Ponlakit (feature/html-form)</p>
+
+  <!-- ฟอร์มกรอกค่า -->
+  <div class="bmi-box">
+    <label>
+      ส่วนสูง (cm):
+      <input type="number" id="height" placeholder="เช่น 170">
+    </label>
+    <br><br>
+
+    <label>
+      น้ำหนัก (kg):
+      <input type="number" id="weight" placeholder="เช่น 60">
+    </label>
+    <br><br>
+
+    <button onclick="calculateBMI()">คำนวณ BMI</button>
+
+    <h2 id="result"></h2>
+  </div>
 
   <script src="js/bmi.js"></script>
 </body>
