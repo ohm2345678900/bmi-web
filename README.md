@@ -23,3 +23,13 @@
 
 ## Project Structure
 
+## Team Members
+- HTML: Ponlakit
+- CSS: Saifa
+- JavaScript: Saifa
+- QA / Docs: Ratchada
+
+## How to Run
+1. ดาวน์โหลดหรือ clone โปรเจค
+2. เปิดไฟล์ `index.html` ด้วยเว็บเบราว์เซอร์
+
