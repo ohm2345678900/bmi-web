@@ -21,3 +21,4 @@ function calculateBMI() {
   document.getElementById("result").innerText =
     `BMI = ${bmi.toFixed(2)} (${status})`;
 }
+
