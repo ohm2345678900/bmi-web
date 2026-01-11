@@ -1,5 +1,7 @@
 feature/html-form
 function calculateBMI() {
+  console.log("ปุ่มถูกกดแล้ว");
+  
   const height = document.getElementById("height").value;
   const weight = document.getElementById("weight").value;
 
